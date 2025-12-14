@@ -1,0 +1,15 @@
+[project]
+name = "nvidia-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "torch>=2.9.1",
+    "torchvision>=0.24.1",
+]
+
+# 添加这个部分来配置额外的包索引
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
