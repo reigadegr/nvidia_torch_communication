@@ -2,6 +2,7 @@
 - 用conda的已经是老登了，我们用现代化的uv
 
 ```bash
+git clone --depth 1 https://github.com/reigadegr/nvidia_torch_communication
 uv sync
 uv run main.py
 ```
